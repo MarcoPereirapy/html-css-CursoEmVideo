@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(132, 225, 173);
+  margin: 0px;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #00cc6f, #008c4c, #006337);
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: white;
+}
+
+header > h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+header > h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: lighter;
+}
+
+header > nav {
+  text-align: left;
+}
+
+.principal {
+  margin-top: 0px;
+}
+
+main {
+  background-color: white;
+  margin: auto;
+  width: 800px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+.centralizado {
+  text-align: center;
+}
+.centralizado-video {
+  text-align: center;
+  background-color: #006337;
+  width: 800px;
+}
+.topico {
+  font-family: android;
+  background-image: linear-gradient(to right, #00cc6f, #006337, white);
+  color: #013d22;
+}
+
+.topico-principal {
+  font-family: android;
+  color: #013d22;
+  font-size: 2em;
+}
+
+.topico-extra {
+  color: white;
+  background-color: #00cc6f;
+  font-family: sans-serif;
+}
+
+.listas-extras {
+  display: inline-block;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #013d22;
+}
