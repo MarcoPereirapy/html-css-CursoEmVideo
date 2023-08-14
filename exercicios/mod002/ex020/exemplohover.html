@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exemplo Hover</title>
+ <style>
+  div>p {
+   display: none;
+  }
+
+  div:hover>p {
+   color: white;
+   background-color: black;
+   display: block;
+  }
+
+  div:hover {
+   color: yellow;
+  }
+ </style>
+</head>
+
+<body>
+ <h1>Texto escondido</h1>
+ <div>
+  Passe o mouse aqui
+  <p>Texto escondindo dentro da DIV</p>
+ </div>
+ <p>Esse paragráfo não foi afetado pois não é filho da DIV</p>
+</body>
+
+</html>

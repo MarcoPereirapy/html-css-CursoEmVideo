@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ImagensAdaptativas&Audio</title>
+ <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+ <h1>Imagens flexiveis</h1>
+ <p>Precisamos da tag picture</p>
+ <p>
+  <picture>
+   <!-- As sequencias devem ser do menor ao maior e a ultima imagem deve ser sua imagem original padrao. -->
+   <source media="(max-width:750px)" srcset="foto-p.png">
+   <source media="(max-width:1050px)" srcset="foto-m.png" type="image/png">
+   <img src="foto-g.png" alt="Imagem flexivel funcionando">
+  </picture>
+ </p>
+
+ <h1>Audios</h1>
+ <audio preload="metadata" controls loop>
+  <source src="media/guanacast-33.mp3" type="audio/mpeg">
+ </audio>
+
+ <p>
+  Nao conseguiu reproduzir? clique <a href="media/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">aqui
+   para download</a>
+ </p>
+
+ <h1>Video</h1>
+ <video width="600px" poster="img/cap11/pexels-spemone-639090.jpg" controls>
+  <source src="media/myvideo01.mp4" type="video/mp4">
+ </video>
+ <p>Infelizmente seu navegador nao carregou o video!</p>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Fontes em CSS</title>
+ <style>
+  @font-face {
+   font-family: trans;
+   src: url(fonts/Transformers\ Movie.ttf) format(truetype);
+   font-weight: normal;
+   font-style: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+  body {
+   font-size: 1.3em;
+  }
+
+  .fonte-sistema {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .fonte-google {
+   font-family: 'Major Mono Display', monospace;
+  }
+  .fonte-local {
+   font-family: trans;
+  }
+ </style>
+</head>
+<body>
+ <h1>Possiveis Locais de fontes</h1>
+ <h2 class="fonte-sistema">Fontes Do sistema</h2>
+ <h2 class="fonte-google">Fontes do GOOGLE</h2>
+ <h2 class="fonte-local">Fontes baixadas localmente</h2>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Personalizando os links</title>
+ <style>
+  body {
+   font-family: 'Courier New', Courier, monospace;
+  }
+
+  a {
+   color: red;
+   text-decoration: none;
+  }
+
+  a:visited {
+   color: darkred;
+  }
+
+  a:hover {
+   color: black;
+   text-decoration: underline;
+  }
+
+  a:active {
+   color: greenyellow;
+   background-color: white;
+  }
+
+  .especial::before {
+   content: '[IMPORTANTE]';
+  }
+ </style>
+</head>
+<body>
+ <h1>Links Personalizados</h1>
+ <ul>
+  <li><a href="https://www.youtube.com/@janailson/featured" target="_blank">Canal Youtube Jana</a></li>
+  <li><a href="https://fonts.google.com/" target="_blank">Site Google Fontes</a></li>
+  <li><a href="https://gustavoguanabara.github.io/" target="_blank" class="especial">Github</a></li>
+ </ul>
+</body>
+</html>

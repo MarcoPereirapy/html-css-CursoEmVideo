@@ -1,0 +1,3 @@
+[] Reler sobre BOX MODELS
+[] Compreender sobre a estrutura de uma caixa
+[] Rever video sobre box models
